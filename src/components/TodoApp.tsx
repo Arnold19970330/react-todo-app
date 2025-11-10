@@ -128,7 +128,7 @@ export const TodoApp = () => {
   }
 
   return (
-    <Card>
+    <Card className="w-full lg:w-[500px]">
       <CardHeader>
         <CardTitle className="flex items-center gap-2">
           Magic Todo Maker <Badge variant="secondary">TS + Tailwind + Toast</Badge>
